@@ -36,7 +36,7 @@ This project analyses customer data for a grocery retailer to drive actionable m
 | 6182 |         1984 | Graduation  | Together         |    26646 |         1 |          0 | 2014-02-10 00:00:00 |        26 |         11 |           4 |                20 |                10 |                  3 |              5 |                   2 |                 2 |                     0 |                   4 |                   6 |              0 |              0 |              0 |              0 |              0 |          0 |               3 |          11 |          0 |    41 |
 | 5324 |         1981 | PhD         | Married          |    58293 |         1 |          0 | 2014-01-19 00:00:00 |        94 |        173 |          43 |               118 |                46 |                 27 |             15 |                   5 |                 5 |                     3 |                   6 |                   5 |              0 |              0 |              0 |              0 |              0 |          0 |               3 |          11 |          0 |    44 |
 
-![Distribution of Customer Age](/age_histogram.png)
+![Distribution of Customer Age](figures/age_histogram.png)
 
 
 ### 2. RFM Segmentation
