@@ -43,7 +43,7 @@ This project analyses customer data for a grocery retailer to drive actionable m
 - Calculated Recency, Frequency, and Monetary value
 - Assigned quintile-based scores (1–5), created segment codes (e.g., Champions, Loyal, At Risk)
 
-![Customer Segments by Size](rfm_segment_counts.png)
+![Customer Segments by Size](figures/rfm_segment_counts.png)
 
 | Count               |   count |
 |:--------------------|--------:|
@@ -59,14 +59,14 @@ This project analyses customer data for a grocery retailer to drive actionable m
 - Demographics, product spend, and channel usage analysed by segment
 ![Average Product Spend by Segment](product_spend_by_segment.png)
 
-![Channel Usage by Segment](channel_usage_by_segment.png)
+![Channel Usage by Segment](figures/channel_usage_by_segment.png)
 
 
 ### 4. Campaign Response & ROI Analysis
 - Campaign acceptance rates and expected ROI calculated per segment and campaign
 Visualise each product by segment
 
-![Expected Campaign Revenue by Segment](expected_revenue_by_segment.png)
+![Expected Campaign Revenue by Segment](figures/expected_revenue_by_segment.png)
 
 |                     |   AcceptedCmp1_ExpRevenue |   AcceptedCmp2_ExpRevenue |   AcceptedCmp3_ExpRevenue |   AcceptedCmp4_ExpRevenue |   AcceptedCmp5_ExpRevenue |
 |:--------------------|--------------------------:|--------------------------:|--------------------------:|--------------------------:|--------------------------:|
@@ -83,7 +83,7 @@ Visualise each product by segment
 - Features scaled and evaluated (precision, recall, F1, ROC-AUC)
 '|              |   precision |   recall |   f1-score |   support |\n|:-------------|------------:|---------:|-----------:|----------:|\n| 0            |        0.87 |     0.98 |       0.93 |    572    |\n| 1            |        0.66 |     0.19 |       0.29 |    100    |\n| accuracy     |        0.86 |     0.86 |       0.86 |      0.86 |\n| macro avg    |        0.76 |     0.59 |       0.61 |    672    |\n| weighted avg |        0.84 |     0.86 |       0.83 |    672    |'
 
-![ROC Curve for Campaign Response Model](roc_curve.png)
+![ROC Curve for Campaign Response Model](figures/roc_curve.png)
 
 | Feature             |   Coefficient |
 |:--------------------|--------------:|
